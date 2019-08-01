@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+
+.landing{
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  background: lightgrey;
+  height: 200px; 
+}
+
+.flex-container{
+  display: flex;
+  text-align: center;
+	margin: auto;
+}
+
+
+.flex{
+  /* z-index: 2; */
+  /* background: grey; */
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ),
+  url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  margin: 10% auto;
+  font-family: 'Amatic SC', cursive;
+  padding: 20%;
+  width: 80%;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+@media screen and (min-width: 700px) {
+  .flex{
+    max-width: 500px;
+    max-height: 350px;
+    padding: auto;
+  }
+  h1{
+    margin: auto;
+  }
+  
+  h2{
+    margin: auto;
+  }
+} 
