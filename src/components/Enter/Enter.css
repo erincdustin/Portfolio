@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 @import url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 
-.flex-container{
+.outer{
   text-align: center;
-  margin: 35% auto;
+  margin: 15% auto 0 auto;
 }
 
 
-.flex{
+.inner{
   color: black;
   border: 4px solid lightgrey;
   font-family: 'Amatic SC', cursive;
-  /* padding: 20%; */
   width: 80%;
   margin: 10% auto;
 }
@@ -24,20 +23,21 @@ h1{
 h2{
   font-size: 24px;
   margin: 10% auto;
+  width: 80%;
 }
 
 @media screen and (min-width: 700px) {
-  .flex-container{
-    text-align: center;
-  }
 
-  .flex{
+  .inner{
     width: 60%;
   }
 } 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  .outer{
+    margin: 40% auto 0 auto;
+  }
 
   h1{
     font-size: 28px;

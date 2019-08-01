@@ -37,7 +37,6 @@
 }
 
 .flex-link:focus {
-  color: rgb(99, 99, 99);
   outline: 1px solid #fff;
   outline-offset: -4px;
 }

@@ -6,7 +6,8 @@
 
 .about-me-header{
   font-size: 38px;
-  margin-top: 15% ;
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 .headshot-img{
@@ -23,7 +24,7 @@
   padding: 1rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   #about-me{
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +39,7 @@
   }
 
   .about-me{
-    flex: 60%;
+    flex: 50%;
   }
   
   .about-me-header{
