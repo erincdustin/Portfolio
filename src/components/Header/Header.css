@@ -46,8 +46,9 @@
   transform: scale(0.99);
 }
 
-/* @media screen and (max-width: 490px) {
+@media screen and (max-width: 400px) {
   .nav-link{
-    
+    font-size: 22px;
+    margin: 9px 2.5%;
   }
-} */
+} 

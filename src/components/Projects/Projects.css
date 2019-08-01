@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 
-.container{
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row; */
-}
-
 .stack {
   width: 30px;
   height: 30px;
@@ -24,7 +17,6 @@
 }
 
 .portfolio {
-  /* width: 60%; */
   width: 90%;
   margin: auto;
   padding: auto;
@@ -84,4 +76,34 @@ button:active {
   .info{
     flex: 55%;
    }
+} 
+
+@media screen and (max-width: 400px) {
+  p{
+    font-size: 14px;
+  }
+
+  .portfolio{
+    width: 70%;
+  }
+
+  .stack {
+    width: 25px;
+    height: 25px;
+  }
+
+  h1{
+    font-size: 30px;
+    margin: 10px auto;
+  }
+
+  button {
+    width: 6rem;
+    padding: .5rem .5rem;
+    margin: .3rem;
+  }
+
+  .project{
+    margin: 5% 2%;
+  }
 } 

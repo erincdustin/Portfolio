@@ -1,0 +1,47 @@
+#about-me{
+  width: 80%;
+  margin: 5% auto;
+  border: solid 4px lightgrey;
+}
+
+.about-me-header{
+  font-size: 38px;
+  margin-top: 15% ;
+}
+
+.headshot-img{
+  flex: 25%;
+  width: 40%;
+  margin: 10% auto 0 auto;
+  border-radius: 100%;
+  border: 4px solid lightgrey;
+}
+
+.about-me-text{
+  font-size: 16px;
+  line-height: 1.75rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  #about-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    
+  }
+
+  .headshot-img{
+    flex: 25%;
+    width: 80%;
+  }
+
+  .about-me{
+    flex: 60%;
+  }
+  
+  .about-me-header{
+    margin-top: 7.5% ;
+  }
+} 
