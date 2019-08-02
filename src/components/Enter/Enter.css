@@ -19,6 +19,10 @@
 
 h1{
   font-size: 34px;
+  margin: 10% auto 5% auto;
+}
+
+.header-homepage{
   display: inline;
   width: 90%;
 }
