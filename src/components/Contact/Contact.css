@@ -9,12 +9,16 @@
 
 .container a{
   width: 27.5%;
-  margin: 10% auto;
+  margin: 7.5% auto;
   padding: 35px 5px;
   font-family: 'Amatic SC', cursive;
   font-size: 1.25rem;
   text-decoration: none;
   color: black;
+}
+
+.connect a{
+  border: 4px solid lightgrey;
 }
 
 a:hover{
@@ -24,3 +28,13 @@ a:hover{
 .icon {
   height: 50px;
 }
+
+.connect-text {
+  margin: 100px auto 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .container a{
+    margin: 15% auto;
+  }
+} 

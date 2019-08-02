@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   font-family: 'Amatic SC', cursive;
+  z-index: 3;
 }
 
 .header-flex{

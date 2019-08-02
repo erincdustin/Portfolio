@@ -49,7 +49,6 @@ button {
 
 button:hover,
 button:focus {
-  /* background: rgb(77, 153, 167); */
   background: rgb(160, 160, 160);
 }
 
