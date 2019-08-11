@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+#portfolio{
+  width: 90%;
+  margin:  60px auto;
+}
 
 .stack {
   width: 30px;
@@ -11,20 +17,19 @@
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
-  margin: 5% auto;
+  margin: 25px auto;
   padding: 2%;
-  border: solid 4px lightgrey;
 }
 
 .portfolio {
   width: 90%;
-  margin: auto;
+  margin: 25px auto;
   padding: auto;
 }
 
 h1{
-  font-family: 'Amatic SC', cursive;
-  font-size: 38px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
   margin: 20px auto;
 }
 
@@ -35,9 +40,9 @@ button {
   padding: .5rem .5rem;
   margin: .5rem;
   text-decoration: none;
-  background: rgb(99, 99, 99);
+  font-family: 'Roboto Mono', monospace;
+  background: black;
   color: white;
-  font-family: sans-serif;
   font-size: .85rem;
   cursor: pointer;
   text-align: center;
@@ -47,23 +52,9 @@ button {
   -moz-appearance: none;
 }
 
-button:hover,
-button:focus {
-  background: rgb(160, 160, 160);
-}
-
-button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-button:active {
-  transform: scale(0.99);
-}
-
 @media screen and (min-width: 600px) {
   .project {
-    width: 80%;
+    width: 70%;
   }
   
   .thumbnail {

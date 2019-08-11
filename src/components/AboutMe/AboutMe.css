@@ -1,22 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 #about-me{
   width: 80%;
-  margin: 5% auto;
-  border: solid 4px lightgrey;
+  margin: 15px auto;
+  /* border: solid 4px lightgrey; */
   padding: 15px;
 }
 
 .about-me-header{
-  font-size: 38px;
+  font-size: 30px;
   margin-top: 85px;
   margin-bottom: 25px;
+  font-family: 'Roboto Mono', 'monospace';
 }
 
 .headshot-img{
   flex: 25%;
   width: 40%;
-  margin: 7.5% auto 0 auto;
+  margin: 15px auto;
   border-radius: 100%;
-  border: 4px solid lightgrey;
 }
 
 .about-me-text{

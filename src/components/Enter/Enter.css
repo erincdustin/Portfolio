@@ -1,30 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
-@import url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-.textbox{
-  background: rgb(255, 255, 255);
-  border: 6px lightgrey solid;
-  color: black;
-  font-family: 'Amatic SC', cursive;
+#enter{
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('https://image.freepik.com/free-photo/cactus-with-space-pot-wooden-table-top-view_7192-949.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 75px 4% auto 4%;
+    z-index: 1;
+  } 
+  
+  @media screen and (min-width: 768px) {
+    #enter {
+      max-width: 800px;
+      margin: 100px auto;
+    } 
+  } 
+
+.name{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+}
+
+.job{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+.enter-container{
+  margin: auto;
   width: 80%;
-  height: 300px;
-  margin: 25% auto 0 auto;
+  color: white;
+  height: 250px;
+  z-index: 2;
 }
 
-.emoji img{
-  height: 50px;
-  margin: 5%;
-  display: inline;
-}
+@media screen and (min-width: 768px) {
+  .name{
+    font-size: 50px;
+  }
+  
+  .job{
+    font-size: 30px;
+  }
+
+  .enter-container{
+    height: 300px;
+    margin: 0 0 0 25%;
+  }
+} 
 
 h1{
   font-size: 34px;
   margin: 10% auto 5% auto;
-}
-
-.header-homepage{
-  display: inline;
-  width: 90%;
 }
 
 h2{
@@ -36,10 +67,6 @@ h2{
 
 
 @media screen and (min-width: 700px) {
-  .textbox{
-    margin: 15% auto 0 auto;
-    width: 60%;
-  }
 
   h1, h2{
     margin: 8% auto;
@@ -51,16 +78,8 @@ h2{
 } 
 
 @media screen and (min-width: 1100px) {
-  .textbox{
-    margin: 12% auto 0 auto;
-    width: 50%;
-  }
 
   h1, h2{
     margin: 6% auto;
-  }
-
-  .emoji img{
-    margin: 4%;
   }
 } 

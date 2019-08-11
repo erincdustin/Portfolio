@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import AboutMePage from '../../routes/AboutMe';
 import Contact from '../../routes/ContactMe';
 import Landing from '../../routes/Landing';
+import MySkills from '../../routes/MySkills';
 import './App.css';
 
 function App() {
@@ -29,6 +30,10 @@ function App() {
         <Route 
         exact path={'/contact'}
         component={Contact} />
+
+        <Route 
+        exact path={'/skills'}
+        component={MySkills} />
       </main>
     </div>
   );

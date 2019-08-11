@@ -3,7 +3,8 @@ import mail from '../../images/download.png';
 
 import './Contact.css'
 
-function Contact(props){
+class Contact extends React.Component{
+  render() {
   return (
     <section id="contact">
       <h1 class="connect-text">Let's Get Connected!</h1>
@@ -14,6 +15,7 @@ function Contact(props){
       </div>
     </section>
   )
+  }
 }
 
 export default Contact;
