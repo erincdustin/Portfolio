@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 .Header{
+  /* background: rgb(77, 92, 75); */
   background: black;
   height: 50px;
   width: 100%;
@@ -18,9 +19,9 @@
 .nav-link{
   display: inline-block;
   text-align: center;
-  font-size: 18px;
-  margin: 11px 2.5%;
   text-decoration: none;
+  font-size: 16px;
+  margin: 14px 2%;
 }
 
 .flex-link{
@@ -47,9 +48,9 @@
   transform: scale(0.99);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .nav-link{
-    font-size: 14px;
-    margin: 14px 1.75%;
+    font-size: 18px;
+    margin: 11px 2.5%;
   }
 } 

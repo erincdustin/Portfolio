@@ -1,23 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 
 #enter{
     text-align: center;
     margin-top: 50px;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('https://image.freepik.com/free-photo/cactus-with-space-pot-wooden-table-top-view_7192-949.jpg');
+    ), url('https://image.freepik.com/free-photo/cactus-with-space-pot-wooden-table-top-view_7192-949.jpg'); */
+    /* background-image: url('https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 75px 4% auto 4%;
-    z-index: 1;
-  } 
-  
-  @media screen and (min-width: 768px) {
-    #enter {
-      max-width: 800px;
-      margin: 100px auto;
-    } 
+    background-size: cover; */
+    width: 90%;
+    height: 50%;
+    margin: 75px auto 0px auto;
   } 
 
 .name{
@@ -33,12 +29,15 @@
 .enter-container{
   margin: auto;
   width: 80%;
-  color: white;
   height: 250px;
-  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
+  #enter {
+    max-width: 800px;
+    margin: 50px auto;
+  } 
+
   .name{
     font-size: 50px;
   }
@@ -49,11 +48,10 @@
 
   .enter-container{
     height: 300px;
-    margin: 0 0 0 25%;
   }
 } 
 
-h1{
+/* h1{
   font-size: 34px;
   margin: 10% auto 5% auto;
 }
@@ -63,7 +61,7 @@ h2{
   margin: 8% auto;
   line-height: 2rem;
   width: 80%;
-}
+} */
 
 
 @media screen and (min-width: 700px) {

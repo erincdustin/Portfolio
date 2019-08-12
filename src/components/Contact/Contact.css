@@ -25,6 +25,29 @@ a:hover{
   height: 50px;
 }
 
-.connect-text {
+.connect-header {
   margin: 100px auto 0 auto;
+  text-align: center;
+  font-size: 20px;
 }
+
+.connect-text {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  #contact {
+    width: 60%;
+    margin: auto;
+  } 
+
+  .connect-header {
+    font-size: 30px;
+  }
+
+  .connect-text {
+    margin: 15px auto;
+  }
+} 
