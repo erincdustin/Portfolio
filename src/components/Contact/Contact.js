@@ -1,18 +1,23 @@
 import React from 'react';
-import mail from '../../images/download.png';
+import mail from '../../images/email-black.png';
+import github from '../../images/github-black.png';
+import linkedin from '../../images/linkedin-black.png';
 
 import './Contact.css'
 
-function Contact(props){
+class Contact extends React.Component{
+  render() {
   return (
-    <section role="region" id="contact">
-      <div class = "container">
-        <a href="https://www.linkedin.com/in/erin-dustin/" target="_blank"><img src="https://dumielauxepices.net/sites/default/files/linkedin-clipart-transparent-666582-6184783.png" class="linkedin icon" alt="link to LinkedIn" /><p>/erindustin</p></a>
-        <a href="https://github.com/erincdustin" target="_blank"><img src="https://png.pngtree.com/svg/20170920/41a529ce9e.png" class="github icon" alt="link to Github" /><p>/erincdustin</p></a>
-        <a href="mailto:erincdustin@gmail.com" target="_top" class="contact-email" ><img src={mail} class="email icon" alt="link to email" /><p>Email</p></a>         
+    <section id="contact">
+      <h1 className="connect-header">Let's Get Connected!</h1>
+      <div className="container connect">
+        <a href="https://www.linkedin.com/in/erin-dustin/" target="_blank"><img src={linkedin} class="linkedin icon" alt="link to LinkedIn" /><p className="connect-text">/erindustin</p></a>
+        <a href="https://github.com/erincdustin" target="_blank"><img src={github} class="github icon" alt="link to Github" /><p className="connect-text">/erincdustin</p></a>
+        <a href="mailto:erincdustin@gmail.com" target="_top" class="contact-email" ><img src={mail} class="email icon" alt="link to email" /><p className="connect-text">Email</p></a>         
       </div>
     </section>
   )
+  }
 }
 
 export default Contact;

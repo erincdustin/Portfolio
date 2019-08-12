@@ -1,8 +1,9 @@
+@import url('https://image.freepik.com/free-photo/cactus-with-space-pot-wooden-table-top-view_7192-949.jpg');
+
 * {
   box-sizing: border-box;
 }
 
 main {
   text-align: center;
-  margin-top: 50px;
 } 

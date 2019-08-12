@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 .Header{
-  background: rgb(99, 99, 99);
+  /* background: rgb(77, 92, 75); */
+  background: black;
   height: 50px;
   width: 100%;
   position: fixed;
   top: 0;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto Mono', monospace;
+  z-index: 3;
 }
 
 .header-flex{
@@ -16,9 +19,9 @@
 .nav-link{
   display: inline-block;
   text-align: center;
-  font-size: 25px;
-  margin: 7.5px 2.5%;
   text-decoration: none;
+  font-size: 16px;
+  margin: 14px 2%;
 }
 
 .flex-link{
@@ -30,14 +33,13 @@
 }
 
 .flex-link:hover{
-  background: rgb(221, 221, 221);
+  /* background: rgb(221, 221, 221);
   color: rgb(99, 99, 99);
-  font-weight: bold;
+  font-weight: bold; */
   text-decoration: none;
 }
 
 .flex-link:focus {
-  color: rgb(99, 99, 99);
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
@@ -46,9 +48,9 @@
   transform: scale(0.99);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 768px) {
   .nav-link{
-    font-size: 22px;
-    margin: 9px 2.5%;
+    font-size: 18px;
+    margin: 11px 2.5%;
   }
 } 

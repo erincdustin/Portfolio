@@ -1,17 +1,20 @@
 import React from 'react';
+import Typed from 'react-typed';
 import './Enter.css';
 
-class Header extends React.Component{
+export default class Enter extends React.Component{
   render() {
     return (
-    <div className="flex-container">
-      <div className="flex">
-          <h1>Hi, my name is Erin</h1>
-          <h2>I followed my dream and pursued software engineering full-time. Now I build full stack web applications.</h2>
-      </div>
-    </div>
-  )
+      <section id="enter">
+        <br />
+        <div className="enter-container">
+          <br />
+          <h1 className="name">
+            <Typed strings={['Erin Dustin']} typeSpeed={100} />
+          </h1>
+          <h2 className="job">Full Stack Web Developer</h2>
+        </div>
+      </section>
+    )
 }
 }
-
-export default Header;

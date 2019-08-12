@@ -10,7 +10,7 @@ class Header extends React.Component{
         <Link className="flex-link" to="/">home</Link>
       </div>
       <div className="nav-link flex-link">
-      <Link className="flex-link" to="/aboutMe">about me</Link>
+      <Link className="flex-link" to="/aboutMe">about</Link>
       </div>
       <div className="nav-link flex-link">
       <Link className="flex-link" to="/projects">projects</Link>

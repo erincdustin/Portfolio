@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+#portfolio{
+  /* width: 90%; */
+  margin:  25px auto;
+}
 
 .stack {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin: .5rem;
 }
 
@@ -11,62 +17,71 @@
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
-  margin: 5% auto;
+  margin: 25px auto;
   padding: 2%;
-  border: solid 4px lightgrey;
+  width: 90%;
 }
 
 .portfolio {
-  width: 90%;
-  margin: auto;
+  width: 70%;
+  margin: 25px auto;
   padding: auto;
 }
 
 h1{
-  font-family: 'Amatic SC', cursive;
-  font-size: 38px;
-  margin: 20px auto;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  margin: 10px auto;
 }
 
 button {
   display: inline-block;
   border: none;
-  width: 8rem;
   padding: .5rem .5rem;
-  margin: .5rem;
+  width: 65px;
+  margin: .2rem;
   text-decoration: none;
-  background: rgb(99, 99, 99);
+  font-family: 'Roboto Mono', monospace;
+  background: black;
   color: white;
-  font-family: sans-serif;
-  font-size: .85rem;
+  font-size: 13px;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, 
-              transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
-button:hover,
-button:focus {
-  /* background: rgb(77, 153, 167); */
-  background: rgb(160, 160, 160);
+p{
+  font-size: 14px;
+  margin: 25px auto;
+  text-align: left;
 }
 
-button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
+@media screen and (min-width: 678px) {
 
-button:active {
-  transform: scale(0.99);
-}
-
-@media screen and (min-width: 600px) {
-  .project {
-    width: 80%;
+  #portfolio{
+    width: 90%;
   }
-  
+
+  .stack {
+    width: 30px;
+    height: 30px;
+  }
+
+  h1{
+    font-size: 30px;
+    margin: 20px auto;
+  }
+
+  button {
+    width: 8rem;
+    margin: 1px;
+    width: 75px;
+  }
+
+  .project{
+    margin: 25px auto;
+    width: 100%;
+  }
+
   .thumbnail {
     margin: auto;
     padding: 0;
@@ -76,34 +91,4 @@ button:active {
   .info{
     flex: 55%;
    }
-} 
-
-@media screen and (max-width: 400px) {
-  p{
-    font-size: 14px;
-  }
-
-  .portfolio{
-    width: 70%;
-  }
-
-  .stack {
-    width: 25px;
-    height: 25px;
-  }
-
-  h1{
-    font-size: 30px;
-    margin: 10px auto;
-  }
-
-  button {
-    width: 6rem;
-    padding: .5rem .5rem;
-    margin: .3rem;
-  }
-
-  .project{
-    margin: 5% 2%;
-  }
 } 
