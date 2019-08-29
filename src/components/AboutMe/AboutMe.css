@@ -3,7 +3,6 @@
 #about-me{
   width: 80%;
   margin: 15px auto;
-  /* border: solid 4px lightgrey; */
   padding: 15px;
 }
 
@@ -22,8 +21,8 @@
 }
 
 .about-me-text{
-  font-size: 16px;
-  line-height: 1.75rem;
+  font-size: 18px;
+  line-height: 2rem;
   padding: 1.25rem;
   margin: auto;
   text-align: left;

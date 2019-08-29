@@ -11,8 +11,8 @@ class Contact extends React.Component{
     <section id="contact">
       <h1 className="connect-header">Let's Get Connected!</h1>
       <div className="container connect">
-        <a href="https://www.linkedin.com/in/erin-dustin/" target="_blank"><img src={linkedin} class="linkedin icon" alt="link to LinkedIn" /><p className="connect-text">/erindustin</p></a>
-        <a href="https://github.com/erincdustin" target="_blank"><img src={github} class="github icon" alt="link to Github" /><p className="connect-text">/erincdustin</p></a>
+        <a href="https://www.linkedin.com/in/erin-dustin/" rel="noopener noreferrer" target="_blank"><img src={linkedin} class="linkedin icon" alt="link to LinkedIn" /><p className="connect-text">/erindustin</p></a>
+        <a href="https://github.com/erincdustin" rel="noopener noreferrer" target="_blank"><img src={github} class="github icon" alt="link to Github" /><p className="connect-text">/erincdustin</p></a>
         <a href="mailto:erincdustin@gmail.com" target="_top" class="contact-email" ><img src={mail} class="email icon" alt="link to email" /><p className="connect-text">Email</p></a>         
       </div>
     </section>

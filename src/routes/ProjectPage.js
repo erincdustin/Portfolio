@@ -1,12 +1,12 @@
 import React from 'react';
-import Enter from '../components/Enter/Enter';
+import Projects from '../components/Projects/Projects';
 
 export default class Landing extends React.Component {
 
   render() {
     return(
       <div className="center">
-        <Enter />
+        <Projects />
       </div>
     )
   }

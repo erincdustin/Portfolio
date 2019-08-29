@@ -3,17 +3,9 @@
 
 #enter{
     text-align: center;
-    margin-top: 50px;
-    /* background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url('https://image.freepik.com/free-photo/cactus-with-space-pot-wooden-table-top-view_7192-949.jpg'); */
-    /* background-image: url('https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-    background-repeat: no-repeat;
-    background-size: cover; */
     width: 90%;
     height: 50%;
-    margin: 75px auto 0px auto;
+    margin: 25px auto 0px auto;
   } 
 
 .name{
@@ -24,17 +16,47 @@
 .job{
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
+  color: black;
 }
 
 .enter-container{
-  margin: auto;
+  margin: 0 auto 15px auto;
   width: 80%;
-  height: 250px;
 }
 
-@media screen and (min-width: 768px) {
+.tech-flex{
+  margin-top: 50px;
+}
+
+.tech{
+  padding: 10px;
+  margin: 25px auto;
+  list-style-type: none;
+  display: flex;
+  max-width: 250px;
+}
+
+.tech img{
+  height: 70px;
+  width: 70px;
+  margin: auto 10px;
+}
+
+ul{
+  margin: auto auto auto 15px;
+  padding-left: 10px;
+}
+
+li{
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 700px) {
   #enter {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
   } 
 
@@ -49,29 +71,21 @@
   .enter-container{
     height: 300px;
   }
-} 
 
-/* h1{
-  font-size: 34px;
-  margin: 10% auto 5% auto;
-}
-
-h2{
-  font-size: 22px;
-  margin: 8% auto;
-  line-height: 2rem;
-  width: 80%;
-} */
-
-
-@media screen and (min-width: 700px) {
-
-  h1, h2{
-    margin: 8% auto;
+  .tech-flex{
+    display: flex;
+    text-align: center;
+    margin: auto;
   }
 
-  .emoji img{
-    margin: 5%;
+  .tech{
+    flex: 30%;
+    margin: auto 2.5px;
+    max-width: 350px;
+  }
+
+  ul{
+    padding-left: 10px;
   }
 } 
 
@@ -79,5 +93,23 @@ h2{
 
   h1, h2{
     margin: 6% auto;
+  }
+
+  .tech{
+    margin: 25px 10px;
+  }
+
+  ul{
+    padding-left: 15px;
+  }
+
+  .tech img{
+    height: 85px;
+    width: 85px;
+    margin: auto 5px;
+  }
+
+  li{
+    font-size: 16px;
   }
 } 

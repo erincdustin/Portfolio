@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 import Header from '../Header/Header';
-import Projects from '../Projects/Projects';
+import ProjectPage from '../../routes/ProjectPage';
 import AboutMePage from '../../routes/AboutMe';
 import Contact from '../../routes/ContactMe';
 import Landing from '../../routes/Landing';
@@ -24,7 +24,7 @@ function App() {
 
         <Route 
         exact path={'/projects'}
-        component={Projects} />
+        component={ProjectPage} />
 
         <Route 
         exact path={'/contact'}
