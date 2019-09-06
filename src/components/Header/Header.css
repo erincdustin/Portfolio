@@ -21,7 +21,7 @@
   text-decoration: none;
   font-size: 16px;
   margin: 14px 2%;
-  color: white;
+  /* color: white; */
 }
 
 .flex-link, .flex-link a{
@@ -30,21 +30,18 @@
   text-decoration: none;
 }
 
-.flex-link:hover, .nav-link:hover{
+@media screen and (min-width: 768px) {
+  .flex-link a{
+    padding: 5px 15px;
+  }
+} 
+
+.flex-link a:hover{
   font-weight: bold;
   text-decoration: none;
   color: black;
   background: white;
 }
-
-/* .flex-link:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-} */
-
-/* .flex-link:active {
-  transform: scale(0.99);
-} */
 
 @media screen and (min-width: 768px) {
   .nav-link{
