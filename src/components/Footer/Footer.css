@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 .Header{
-  background: black;
+  background: blue;
   height: 50px;
   width: 100%;
   position: fixed;
-  top: 50;
+  left: 0;
+  bottom: 0;
   font-family: 'Roboto Mono', monospace;
   z-index: 3;
+}
+
+.phantom{
+  display: block;
+  height: 50px;
+  width: 100%;
 }

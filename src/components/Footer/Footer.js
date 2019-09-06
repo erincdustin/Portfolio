@@ -5,7 +5,8 @@ class Footer extends React.Component{
   render() {
     return (
     <div className="Header header-flex">
-      contact me
+      <div className="phantom"></div>
+      <div>contact</div>
     </div>
   )
 }

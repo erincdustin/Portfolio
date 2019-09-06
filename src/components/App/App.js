@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import ProjectPage from '../../routes/ProjectPage';
 import AboutMePage from '../../routes/AboutMe';
 import Contact from '../../routes/ContactMe';
@@ -31,9 +30,6 @@ function App() {
         exact path={'/contact'}
         component={Contact} />
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 }
