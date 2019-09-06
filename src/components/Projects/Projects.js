@@ -26,9 +26,9 @@ function Projects(props){
             recommendations algorithm and posts a custom playlist to your account that fits the weather "mood". 
             Users can choose from a list of genres or their top Spotify artists to seed the playlist, and can
             alter mood settings like tempo and happiness if they want to change the song selections.</p>
-          <a href="https://erins-windchime-app.erincdustin.now.sh/" className="link-text" rel="noopener noreferrer" target="_blank"><button type="click">Demo</button></a>
-          <a href="https://github.com/erincdustin/windchime-client" className="link-text" rel="noopener noreferrer" target="_blank"><button type="click">Client</button></a>
-          <a href="https://github.com/erincdustin/windchime-server" className="link-text" rel="noopener noreferrer" target="_blank"><button type="click">Server</button></a>
+          <a href="https://erins-windchime-app.erincdustin.now.sh/" className="link-text" rel="noopener noreferrer" target="_blank"><button type="button">Demo</button></a>
+          <a href="https://github.com/erincdustin/windchime-client" className="link-text" rel="noopener noreferrer" target="_blank"><button type="button">Client</button></a>
+          <a href="https://github.com/erincdustin/windchime-server" className="link-text" rel="noopener noreferrer" target="_blank"><button type="button">Server</button></a>
           </div>
         </section>
         <section className="project 2">

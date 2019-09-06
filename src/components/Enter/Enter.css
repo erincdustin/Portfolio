@@ -34,17 +34,10 @@
   text-align: center;
 }
 
-.picture{
-  flex: 33%;
-  width: 250px;
-  margin: 5px;
-  background: grey;
-}
-
 .tech-flex{
   margin-top: 50px;
   border: 3px solid black;
-  background: rgb(240, 235, 234);
+  background: rgb(238, 231, 231);
 }
 
 .tech{
@@ -73,6 +66,11 @@ li{
   font-size: 14px;
 }
 
+.project-link{
+  width: 25%;
+  padding: 10px;
+}
+
 @media screen and (min-width: 700px) {
   #enter {
     max-width: 1000px;
@@ -88,7 +86,7 @@ li{
   }
 
   .enter-container{
-    height: 300px;
+    height: 250px;
   }
 
   .tech-flex{

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+.Header{
+  background: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 50;
+  font-family: 'Roboto Mono', monospace;
+  z-index: 3;
+}

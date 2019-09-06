@@ -3,6 +3,7 @@ import Typed from 'react-typed';
 import client from '../../images/client.png'
 import server from '../../images/server.png'
 import tools from '../../images/tools.png'
+import { Link } from 'react-router-dom'
 import './Enter.css';
 
 export default class Enter extends React.Component{
