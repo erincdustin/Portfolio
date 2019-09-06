@@ -13,6 +13,7 @@
   font-size: 30px;
 }
 
+
 .job{
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
@@ -24,8 +25,26 @@
   width: 80%;
 }
 
+.picture-flex{
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-content: space-evenly;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.picture{
+  flex: 33%;
+  width: 250px;
+  margin: 5px;
+  background: grey;
+}
+
 .tech-flex{
   margin-top: 50px;
+  border: 3px solid black;
+  background: rgb(240, 235, 234);
 }
 
 .tech{
