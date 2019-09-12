@@ -48,7 +48,7 @@ function Projects(props){
           Users can search for job postings, networking events, and professional contacts within 
           the app and directly add these to their saved assets.  JobReel's database stores 
           jobs, contacts, companies of interest, events, and helpful resources and tracks 
-          progress for the user.  Utilizes GitHub Jobs, Autherntic Jobs, Eventbrite, and Hunter.io 
+          progress for the user.  Utilizes GitHub Jobs, Authentic Jobs, Eventbrite, and Hunter.io 
           APIs.</p>
           <div className="demo">
               <p><span className="demo-credentials">Demo Username:</span> Demo </p>
