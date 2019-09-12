@@ -11,9 +11,3 @@
   font-family: 'Roboto Mono', monospace;
   z-index: 3;
 }
-
-.phantom{
-  display: block;
-  height: 50px;
-  width: 100%;
-}

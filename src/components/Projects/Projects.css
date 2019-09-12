@@ -55,6 +55,18 @@ p{
   text-align: left;
 }
 
+.demo{
+  margin: 25px auto;
+}
+
+.demo p{
+  margin: 0;
+}
+
+.demo-credentials{
+  font-weight: bold;
+}
+
 @media screen and (min-width: 678px) {
 
   #portfolio{
