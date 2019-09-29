@@ -35,7 +35,7 @@ export default class Enter extends React.Component{
               <ul>
                 <li>Node.js</li>
                 <li>PostgreSQL</li>
-                <li>Mochai/Chai</li>
+                <li>Mocha/Chai</li>
                 <li>REST APIs 3</li>
               </ul>
             </div>
