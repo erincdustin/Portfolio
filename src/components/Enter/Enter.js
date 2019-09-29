@@ -3,7 +3,6 @@ import Typed from 'react-typed';
 import client from '../../images/client.png'
 import server from '../../images/server.png'
 import tools from '../../images/tools.png'
-import { Link } from 'react-router-dom'
 import './Enter.css';
 
 export default class Enter extends React.Component{
@@ -26,8 +25,8 @@ export default class Enter extends React.Component{
                 <li>React</li>
                 <li>Enzyme</li>
                 <li>jQuery</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li>HTML5/CSS3</li>
+                <li>SASS</li>
               </ul>
             </div>
             <div className="backend tech">
@@ -35,8 +34,9 @@ export default class Enter extends React.Component{
               <ul>
                 <li>Node.js</li>
                 <li>PostgreSQL</li>
-                <li>Mocha/Chai</li>
-                <li>REST APIs 3</li>
+                <li>Mocha</li>
+                <li>Chai</li>
+                <li>RESTful APIs</li>
               </ul>
             </div>
             <div className="tools tech">
@@ -46,7 +46,7 @@ export default class Enter extends React.Component{
                 <li>GitHub</li>
                 <li>Chrome Dev Tools</li>
                 <li>Heroku</li>
-                <li>Zeit Now</li>
+                <li>Travis CI</li>
               </ul>
             </div>
           </div>

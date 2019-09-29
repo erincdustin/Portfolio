@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-@import url('https://images.pexels.com/photos/1227648/pexels-photo-1227648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
 
 #enter{
     text-align: center;
@@ -29,6 +28,7 @@
   margin: 50px auto;
   border: 3px solid black;
   background: rgb(238, 231, 231);
+  padding: 10px;
 }
 
 .tech{
@@ -54,7 +54,7 @@ li{
   list-style-type: none;
   text-align: left;
   font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .project-link{
